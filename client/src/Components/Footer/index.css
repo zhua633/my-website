@@ -1,0 +1,28 @@
+.footer {
+    height: 30vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:grey;
+    overflow: hidden;
+
+    background-size: cover;
+}
+
+.text {
+    position: absolute;
+    top: 20%;
+    bottom:5%;
+    width: 540px;
+    height: 380px;
+
+    font-weight: 100;
+    font-size: 18px;
+
+    padding: 30px;
+    color: white;
+    cursor: default;
+    text-align: center;
+    font-family: 'Verdana','Helvetica Neue', sans-serif;
+
+}

@@ -1,0 +1,48 @@
+.hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    overflow: hidden;
+
+    background-size: cover;
+}
+
+.heading {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    bottom:5%;
+    width: 540px;
+    height: 380px;
+
+    font-weight: 600;
+    font-size: 60px;
+
+    padding: 30px;
+    color: black;
+    cursor: default;
+    font-family: 'Verdana','Helvetica Neue', sans-serif;
+
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 26px;
+    color: black;
+    font-family: 'Verdana','Helvetica Neue', sans-serif;
+
+}
+
+
+.body {
+    padding-top: 10%;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+    font-family: 'Biotif-Regular','Helvetica Neue', sans-serif;
+    text-align: justify; 
+
+
+}
