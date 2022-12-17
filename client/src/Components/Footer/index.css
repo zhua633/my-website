@@ -3,10 +3,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    background-color:grey;
     overflow: hidden;
-
-    background-size: cover;
 }
 
 .text {
@@ -20,9 +17,53 @@
     font-size: 18px;
 
     padding: 30px;
-    color: white;
+    color: black;
     cursor: default;
     text-align: center;
     font-family: 'Verdana','Helvetica Neue', sans-serif;
+}
 
+.Images {
+    position: relative;
+    overflow: hidden;
+    height: 5vh;
+    width: 5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 0 0 20px; 
+}
+
+
+.Container{   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-top:18vh;
+    margin-bottom: 5vh;
+}
+
+.Item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-bottom:5vh;
+    margin-left:2.5vh;
+    margin-right:2.5vh;
+    position: relative;
+    height: 5vh;
+    width: 5vh;
+}
+
+.linkedin{
+    background-image: url("../../Assets/linkedin.png");
+}
+
+.git{
+    background-image: url("../../Assets/git.png");
 }

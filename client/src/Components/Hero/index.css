@@ -13,12 +13,12 @@
     position: absolute;
     top: 20%;
     left: 10%;
-    bottom:5%;
-    width: 540px;
+    bottom:10%;
+    width: 560px;
     height: 380px;
 
     font-weight: 600;
-    font-size: 60px;
+    font-size: 65px;
 
     padding: 30px;
     color: black;
@@ -28,21 +28,50 @@
 }
 
 .subtitle {
+    margin-top:3%;
     font-weight: 400;
     font-size: 26px;
     color: black;
     font-family: 'Verdana','Helvetica Neue', sans-serif;
-
 }
 
 
 .body {
-    padding-top: 10%;
+    margin-top:3%;
     font-weight: 400;
     font-size: 22px;
     color: black;
     font-family: 'Biotif-Regular','Helvetica Neue', sans-serif;
     text-align: justify; 
+}
+
+.Item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: 5vh;
+    width: 15vh;
+}
+
+.Images {
+    position: relative;
+    overflow: hidden;
+    height: 5vh;
+    width: 5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    
+}
 
 
+.linkedin{
+    background-image: url("../../Assets/linkedin.png");
+    right: 5%;
+}
+
+.git{
+    background-image: url("../../Assets/git.png");
+    left: 5%;
 }

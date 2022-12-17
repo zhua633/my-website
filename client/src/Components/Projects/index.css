@@ -1,6 +1,5 @@
 .cases {
     background-color: white;
-    margin-bottom: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -11,7 +10,6 @@
     font-weight: 800;
     line-height: 1.2em;
     color: black;
-    padding-top:5vh;
     text-align: center;
     font-family: 'Verdana','Helvetica Neue', sans-serif;
 }

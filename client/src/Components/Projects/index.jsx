@@ -6,7 +6,7 @@ import './index.css'
 const Cases = () => {
     return (
         <div className='cases'>
-            <div className='projects_heading'>Projects</div>
+            <div className='projects_heading'>PROJECTS</div>
             <div class='row'>
                 <div class="imgBx">
                     <div class="card">
