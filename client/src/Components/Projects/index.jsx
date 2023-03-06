@@ -7,7 +7,7 @@ const Cases = () => {
     return (
         <div className='cases'>
             <div className='projects_heading'>PROJECTS</div>
-            <div class='row'>
+            <div class='project_row'>
                 <div class="imgBx">
                     <div class="card">
                         <div class="content">
@@ -39,7 +39,7 @@ const Cases = () => {
                 </div>
             </div>
 
-            <div class='row'>
+            <div class='project_row'>
             <div class="imgBx">
                     <div class="card">
                         <div class="content">
@@ -72,7 +72,7 @@ const Cases = () => {
             </div>
 
 
-            <div class='row'>
+            <div class='project_row'>
                 <div class="imgBx">
                     <div class="card">
                         <div class="content">

@@ -5,6 +5,8 @@
     justify-content: center;
     overflow: hidden;
     background-size: cover;
+    background-image: url("../../Assets/background.png");
+    background-size: cover;
 }
 
 .heading {
@@ -21,10 +23,10 @@
     color: black;
     cursor: default;
     font-family: 'Verdana','Helvetica Neue', sans-serif;
-
 }
 
 .subtitle {
+    flex: 1;
     margin-top:3%;
     font-weight: 400;
     font-size: 26px;
@@ -34,18 +36,19 @@
 
 
 .body {
+    margin-top: 8%;
     font-weight: 400;
     font-size: 22px;
     color: black;
     font-family: 'Biotif-Regular','Helvetica Neue', sans-serif;
     text-align: justify; 
 }
-
-.row{
-    display:inline;
-    float:left;
-}
   
+.row {
+display: flex;
+align-items: center;
+}
+
 .Item_row {
     display: flex;
     width: 20vh;
@@ -61,10 +64,12 @@
 .Images {
     position: relative;
     overflow: hidden;
+    height: 5vh;
     width: 5vh;
     background-repeat: no-repeat;
     background-size: cover;
-    float: right;
+    float: left;
+    margin: 0 0 20px; 
 }
 
 

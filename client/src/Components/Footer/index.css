@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-.text {
+.footer_text {
     position: absolute;
     top: 20%;
     bottom:5%;
@@ -23,7 +23,7 @@
     font-family: 'Verdana','Helvetica Neue', sans-serif;
 }
 
-.Images {
+.footer_images {
     position: relative;
     overflow: hidden;
     height: 5vh;
@@ -35,7 +35,7 @@
 }
 
 
-.Container{   
+.footer_container{   
     text-align: center;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@
     margin-bottom: 5vh;
 }
 
-.Item {
+.footer_item {
     vertical-align: top;
     display: inline-block;
     text-align: center;
@@ -58,12 +58,4 @@
     position: relative;
     height: 5vh;
     width: 5vh;
-}
-
-.linkedin{
-    background-image: url("../../Assets/linkedin.png");
-}
-
-.git{
-    background-image: url("../../Assets/git.png");
 }
