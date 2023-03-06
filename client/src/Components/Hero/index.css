@@ -3,9 +3,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-
     overflow: hidden;
-
     background-size: cover;
 }
 
@@ -13,7 +11,6 @@
     position: absolute;
     top: 20%;
     left: 10%;
-    bottom:10%;
     width: 560px;
     height: 380px;
 
@@ -37,7 +34,6 @@
 
 
 .body {
-    margin-top:3%;
     font-weight: 400;
     font-size: 22px;
     color: black;
@@ -45,33 +41,37 @@
     text-align: justify; 
 }
 
-.Item {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    height: 5vh;
-    width: 15vh;
+.row{
+    display:inline;
+    float:left;
+}
+  
+.Item_row {
+    display: flex;
+    width: 20vh;
+    padding-left: 5vh;
+}
+
+.Item_column {
+    float: center;
+    flex: 33.33%;
+    padding: 5px;
 }
 
 .Images {
     position: relative;
     overflow: hidden;
-    height: 5vh;
     width: 5vh;
     background-repeat: no-repeat;
     background-size: cover;
-    float: left;
-    
+    float: right;
 }
 
 
 .linkedin{
     background-image: url("../../Assets/linkedin.png");
-    right: 5%;
 }
 
 .git{
     background-image: url("../../Assets/git.png");
-    left: 5%;
 }
