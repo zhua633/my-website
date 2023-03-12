@@ -1,9 +1,10 @@
 .footer {
-    height: 30vh;
+    height: 20vh;
     position: relative;
     display: flex;
     justify-content: center;
     overflow: hidden;
+    background-color: rgb(240,240,240);
 }
 
 .footer_text {
@@ -44,8 +45,7 @@
     justify-content: center;
     margin-left: 30vh;
     margin-right: 30vh;
-    margin-top:18vh;
-    margin-bottom: 5vh;
+    margin-top: 8vh;
 }
 
 .footer_item {
@@ -58,4 +58,8 @@
     position: relative;
     height: 5vh;
     width: 5vh;
+}
+
+.email{
+    background-image: url("../../Assets/Email.png");
 }

@@ -111,12 +111,13 @@
     border-radius: 10px;
     border: none;
     font-size: 1em;
-    color: grey;
+    color: rgb(40,40,40);
+    font-weight: 550;
  }
 
  .content .details .actionBtn button:hover{
     background-color: rgb(40,40,40);
     color:white;
     border: 2px solid #e7e7e7;
-    font-weight:bold;
+    font-weight:550;
  }

@@ -16,7 +16,7 @@ const Cases = () => {
                                 <h3>React, Figma, Git</h3>
                                 <h4>As a team of 10 at WDCC (Web Development and Consulting Club), we collaborated in sprint sessions to develop a website to introudce Australian students to career in the agriculture sector. I contributed towards developing lo-fi wireframes and hi-fi prototypes on Figma, before developing the front-end using React.</h4>
                                 <div class="actionBtn">
-                                    <button>MORE</button>
+                                    <a href="https://github.com/UoaWDCC/A4A"><button>More</button></a>
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ const Cases = () => {
                                 <h3> Figma</h3>
                                 <h4> Glad to have percipitated in GirlBoss' 2 day event where in a team of four we developed a technological solution to bring us one step closer to the SDG goals. Our team aimed to provide community and support for women in the workforce who wish to take maternity leave. I contributed towards the design of the UI, and the website prototype.</h4>
                                 <div class="actionBtn">
-                                    <button>MORE</button>
+                                    <a href="https://www.figma.com/proto/TcwQMaR7YmDM2YI5QoIRRL/Untitled?scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=1%3A171&node-id=1%3A171"><button>More</button></a>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const Cases = () => {
             </div>
 
             <div class='project_row'>
-            <div class="imgBx">
+                <div class="imgBx">
                     <div class="card">
                         <div class="content">
                             <div class="details">
@@ -48,7 +48,7 @@ const Cases = () => {
                                 <h3>Python, TensorFlow</h3>
                                 <h4>Used TensorFlow to train OpenAI classic control and Atari games with machine learning models. Optimised the scoring and used AI to teach computer to play games!</h4>
                                 <div class="actionBtn">
-                                    <button>MORE</button>
+                                    <a href="https://github.com/zhua633/COMPSYS726-Reinforcement-Learning"><button>More</button></a>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const Cases = () => {
                                 <h3>Python</h3>
                                 <h4>Designed a simple snake game in python.</h4>
                                 <div class="actionBtn">
-                                    <button>MORE</button>
+                                    <a href="https://github.com/zhua633/Snake"><button>More</button></a>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ const Cases = () => {
                                 <h3>Python</h3>
                                 <h4>Used alpha beta pruning to teach the computer to play a game of Tic Tac Toe. Be careful because the computer almost always win!</h4>
                                 <div class="actionBtn">
-                                    <button>MORE</button>
+                                    <a href="https://github.com/zhua633/Tic-Tac-Toe"><button>More</button></a>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ const Cases = () => {
                                 <h3>Html, CSS</h3>
                                 <h4>Replicated the Google search engine front-end, and learnt to use queries to search with keywords.</h4>
                                 <div class="actionBtn">
-                                    <button>MORE</button>
+                                    <a href="https://github.com/zhua633/Search"><button>More</button></a>
                                 </div>
                             </div>
                         </div>
