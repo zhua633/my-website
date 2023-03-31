@@ -4,9 +4,6 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-size: cover;
-    background-image: url("../../Assets/background.png");
-    background-size: cover;
 }
 
 .heading {
@@ -22,7 +19,7 @@
     padding: 30px;
     color: black;
     cursor: default;
-    font-family: 'Verdana','Helvetica Neue', sans-serif;
+    font-family: 'Source Code Pro', 'Verdana','Helvetica Neue', sans-serif;
 }
 
 .subtitle {
@@ -31,7 +28,8 @@
     font-weight: 400;
     font-size: 26px;
     color: black;
-    font-family: 'Verdana','Helvetica Neue', sans-serif;
+    font-family: 'Courier New', monospace;
+
 }
 
 
@@ -39,8 +37,8 @@
     margin-top: 8%;
     font-weight: 400;
     font-size: 22px;
-    color: black;
-    font-family: 'Biotif-Regular','Helvetica Neue', sans-serif;
+    color: black;  
+    font-family: 'Source Code Pro', 'Biotif-Regular','Helvetica Neue', sans-serif;
     text-align: justify; 
 }
   
@@ -52,7 +50,7 @@ align-items: center;
 .Item_row {
     display: flex;
     width: 20vh;
-    padding-left: 5vh;
+    padding-top: 2vh;
 }
 
 .Item_column {
@@ -79,4 +77,75 @@ align-items: center;
 
 .git{
     background-image: url("../../Assets/git.png");
+}
+
+.oval_top_left {
+    left:0vw;
+    top:0vw;
+    width: 40vw;
+    height: 60vh;
+    background-color: rgb(220, 221, 255);
+    border-radius: 0 20vh 50vh 30vh;
+    position: absolute;
+}
+
+.oval_left{
+    left:0vw;
+    top: 35vh;
+    width: 15vw;
+    height: 65vh;
+    background-color: rgb(219, 212, 234);
+    border-radius: 50vh 500vh 500vh 50vh;
+    position: absolute;
+}
+
+.oval_small{
+    width: 5vw;
+    height: 10vh;
+    left:8vw;
+    top: 15vh;
+    background-image: url("../../Assets/donut.png");
+    background-size: cover;
+    position: absolute;
+    transform: rotate(-20deg);
+    animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.swing-image {
+    left: 62vw;
+    top: 15vh;
+    width: 20vw;
+    height: 70vh;
+    background-color: white;
+    position: absolute;
+    animation: swing 10s infinite;
+    background-image: url("../../Assets/Portrait.jpg");
+    background-size: cover;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg) translateX(0);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg) translateX(0);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
