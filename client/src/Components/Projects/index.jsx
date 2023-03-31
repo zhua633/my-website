@@ -2,7 +2,6 @@ import React from 'react'
 import './index.css'
 
 
-
 const Cases = () => {
     return (
         <div className='cases'>

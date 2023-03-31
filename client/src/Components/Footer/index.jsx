@@ -1,7 +1,6 @@
 import React from 'react'
 import './index.css'
 
-
 class Footer extends React.Component{
     render(){
         return(
@@ -17,7 +16,8 @@ class Footer extends React.Component{
                         <a href="https://github.com/zhua633/my-website/" target="_blank" rel="noreferrer"><div className='footer_images git'></div></a>
                     </div>
                 </div>
-            </section>        )
+            </section>
+        )
     }
 }
 

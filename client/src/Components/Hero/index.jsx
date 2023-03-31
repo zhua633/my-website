@@ -9,7 +9,7 @@ class Hero extends React.Component{
             <div className='oval_top_left'></div>
             <div className='oval_left'></div>
             <div className='oval_small'></div>
-            <div className="heading">
+            <div className="heading fade">
                 Hi, I'm Anvilly.
                 <p className='subtitle row'> A graduate software engineer.</p>
                 <div className='body'>

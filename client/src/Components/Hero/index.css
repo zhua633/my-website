@@ -35,10 +35,10 @@
 
 .body {
     margin-top: 8%;
-    font-weight: 400;
-    font-size: 22px;
-    color: black;  
-    font-family: 'Source Code Pro', 'Biotif-Regular','Helvetica Neue', sans-serif;
+    font-weight: 350;
+    font-size: 20px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: justify; 
 }
   
@@ -148,4 +148,14 @@ align-items: center;
   100% {
     transform: rotate(0deg);
   }
+}
+
+.fade {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    transition: fadeIn 2s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
